@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springBoard"/>
+<aop-project name="springNote"/>
+<aop-project name="GuestBook"/>
+<aop-project name="springBoard2"/>
+<aop-project name="springNote3"/>
+<aop-project name="ex01"/>
+<aop-project name="springTransaction"/>
+<aop-project name="springLecture"/>
+</aop-reference-model>

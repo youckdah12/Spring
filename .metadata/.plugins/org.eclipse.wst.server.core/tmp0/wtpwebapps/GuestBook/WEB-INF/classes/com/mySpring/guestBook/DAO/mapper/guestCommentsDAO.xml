@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mySpring.guestBook.DAO.guestBookInterface">
+	<select id="commentList" resultType="com.mySpring.guestBook.DTO.GuestCommentsDTO">
+		select * from comments where bnum = #{bnum}
+	</select>
+	<insert id="commentInsert">
+		insert into comments values(comments_seq.val,#{bnum},#{guestid},#{bcomment}, #{cip},SYSDATE);
+	</insert>
+</mapper>
